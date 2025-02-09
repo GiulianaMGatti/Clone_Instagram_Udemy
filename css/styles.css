@@ -1,0 +1,183 @@
+html{
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: auto; 
+    background: #fafafa;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 15px;
+    overflow-x: hidden;
+    margin-top: 1%;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 80%;
+    }
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1px;
+}
+
+.recuadro {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 20px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.logo { 
+    width: 60%; 
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 40px; 
+}
+
+input {
+    width: 100%;
+    margin-top: 4%;
+    padding: 10px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+img[src="img/phones.png"] {
+    max-width: 100%;
+    margin-top: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.container-1{
+    margin-top: 5%;
+    color:  #3b5998;
+    font-size: 15px;
+    margin-bottom: 15px;
+
+}
+
+.col {
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img[src="img/fb.png"] {
+    max-width: 90%;
+    height: auto;
+}
+
+img[src="img/ios.png"], img[src="img/android.png"] {
+    max-width: 100%;
+    height: auto;
+}
+
+.facebook-link {  
+    font-weight: bold;
+    color:#3b5998;
+    margin-top: 7%;
+    text-decoration: none;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.facebook-link:hover {  
+    text-decoration: underline;
+}
+
+
+.grid {
+    display: flex;          
+    justify-content: space-between;
+    gap: 10px;   
+}
+
+.grid-2{
+    width: 100%;
+    font-size: 12px;
+    display: flex;    
+    align-items: center;      
+    justify-content: center;
+    margin-top:1px;
+    color: #3b5998;
+    width: 100%;
+    gap: 15px;
+}
+
+.container-2 {
+    margin-top: 1px;
+    margin-bottom: 30px;
+    padding: 25px;
+}
+
+.container-4 { /*descargar app*/
+    width: 80%;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.container-3 { /*LOGOS DE IOS Y ANDROID*/
+    display: flex;   
+    width: 80%;
+    max-width: 100%;
+    padding: 10px;
+    margin: auto;
+}
+
+button {
+    margin-top: 10px;
+}
+
+.g-col-12 {
+    font-size: 15px;
+    justify-content: center;
+    align-items: center
+
+}
+.g-col-6{
+    font-size: 15px;
+    font-weight: bold;
+    color:  #1877F2;
+    justify-content: center;
+    align-items: center
+}
+
+.container-fluid{
+    width: 100%;
+    color: #9e9c9c;
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.container-5 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
